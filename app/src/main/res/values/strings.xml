@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleBRTutorialCode</string>
+    <string name="string_br_app_started">Broadcast Receiver App Started</string>
+</resources>
