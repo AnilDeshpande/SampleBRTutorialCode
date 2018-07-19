@@ -42,22 +42,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        /*IntentFilter intentFilter=new IntentFilter("my.custom.action.tag.fordemo");
+        IntentFilter intentFilter=new IntentFilter("my.custom.action.tag.fordemo");
         intentFilter.addCategory(Intent.CATEGORY_DEFAULT);
-        registerReceiver(broadcastReceiver,intentFilter);*/
+        registerReceiver(broadcastReceiver,intentFilter);
 
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-       // unregisterReceiver(broadcastReceiver);
+       unregisterReceiver(broadcastReceiver);
 
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-       // unregisterReceiver(broadcastReceiver);
+
     }
 }
